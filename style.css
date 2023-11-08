@@ -1,0 +1,78 @@
+
+body{
+    margin: 0;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background: hsl(185, 75%, 39%)  ;
+    font-family: 'Poppins', sans-serif;
+}
+.top-svg{
+  width: 100%; /* Set the width of the container */
+      height: 40%; /* Set the height of the container */
+      background-image: url("images/bg-pattern-top.svg"); 
+      position: absolute;
+      transform: rotate(180deg); /* Rotate and translate to the top-right corner */
+top:0; /* Set the transform origin to the top rig */    
+background-repeat: no-repeat;
+right:50%;
+}
+.bottom-svg{
+  transform: rotate(0deg);
+  width: 50%; /* Set the width of the container */
+  height: 40%; /* Set the height of the container */
+  background-image: url("images/bg-pattern-bottom.svg"); 
+  position: absolute;
+  left:50%;    
+  bottom:0;
+background-repeat: no-repeat;
+}
+.card{
+background:#fff;
+height: 20rem;
+width: 20rem;
+border-radius:10px;
+font-family: 'Poppins', sans-serif;
+text-align: center;
+justify-content: center;
+}
+.card-bg{
+    height: 6.5rem;
+    width: 20rem;
+    border-radius:10px 10px 0px 0px ;
+    background:rgb(14, 171, 219);
+    background-image: url("images/bg-pattern-card.svg");
+    font-family: 'Poppins', sans-serif;
+}
+.card-img-top{
+border-radius:50%;
+object-fit: cover;
+box-sizing: border-box;
+display: flex;
+margin:auto;
+border: 3px solid #fff;
+top: 3rem;
+position: relative;
+height: 5rem;
+}
+.container {
+    display: flex; /* Use flexbox to create a horizontal row */
+    justify-content: space-between; /* Distribute space evenly between items */
+  }
+  
+  .items {
+    width: 30%; 
+    margin: 2px; /* Add margin around each item */
+    padding :1px;
+    font-size: 12px;
+    font-weight: 300;
+   
+  }
+  .item {
+    width: 30%; 
+    margin: 2px; /* Add margin around each item */
+  padding :5px;
+  font-size: 16px;
+  font-weight: 600;
+  }
